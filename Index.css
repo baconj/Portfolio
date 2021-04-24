@@ -1,0 +1,25 @@
+.title {
+  text-align: center;
+  font-size: 3em;
+  font-family: "Brush script MT";
+}
+
+#img-div {
+  text-align: center;
+}
+
+#image {
+  display: block;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-caption {
+  font-family: monospace;
+}
+body {
+  background-color: silver;
+}
+#tribute-info {
+  border: 10px solid white;
+}
