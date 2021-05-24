@@ -1,0 +1,45 @@
+.text-center {
+  text-align: center;
+  color: black;
+}
+
+#survey-form {
+  
+  border: 10px solid grey;
+  background-color: lightblue;
+  opacity: 0.9;
+  margin-top: 0;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.contatiner {
+}
+
+body {
+  color: black;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp2236922.jpg&f=1&nofb=1)
+}
+
+.form-group{
+  text-align: left;
+  opacity:1;
+  padding: 5px;
+}
+
+h1 {
+  color: black;
+}
+
+label {
+  display: block;
+}
+
+#image {
+width: 100%;
+height: auto;
+max-width: 625px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
