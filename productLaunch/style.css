@@ -1,0 +1,77 @@
+/* Master Styles */
+body {
+  background-color: black;
+  font-family: "Righteous", sans-sarif;
+}
+
+/* Header Styles */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item1 {
+  background-color: black;
+}
+
+.item1 img {
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+}
+
+.item2 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-family: "Righteous", sans-sarif;
+}
+
+.item3 {
+  background-color: black;
+}
+
+/* Nav styles */
+
+#nav-bar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav-link{
+  text-align: center;
+  background-color: black;
+}
+
+.nav-link a{
+  text-decoration: none;
+  color: white;
+}
+
+#about p{
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+#products {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  width: auto;
+  padding-top: 100px;
+}
+
+.product-header {
+  display: grid;
+  grid-template-column: 1fr;
+  color: white;
+  justify-content: center;
+  padding-top: 100px;
+}
