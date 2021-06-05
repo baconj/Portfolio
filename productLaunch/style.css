@@ -70,7 +70,7 @@ body {
 
 .product-header {
   display: grid;
-  grid-template-column: 1fr;
+  grid-template-columns: 1fr;
   color: white;
   justify-content: center;
   padding-top: 100px;
