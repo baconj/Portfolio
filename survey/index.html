@@ -1,74 +1,67 @@
-<head>
-</head>
-<div class="conatainer">
-  <div id="img-div">
-    <img id="image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1272%2F5083%2Fproducts%2FPg13_IconButton_1024x1024.png%3Fv%3D1493972310&f=1&nofb=1" >
-    <figcaption id="img-caption">Overwatch Icon</figcaption>
-  </div>
-<body id = "main">
-  <title id="title">overwatch survey</title>
-  <h1 class="text-center">Overwatch Player Survey</h1>
-  <p id = "description" class = "description text-center"> Thank you for telling us about your Overwatch experience! </p>
-  <form id = "survey-form">
-    <div class="form-group">
-      <label id="name-label" for="name">Name</label>
-      <input
-             type="text"
-             name="name"
-             id="name"
-             class="form-control"
-             placeholder="Please enter your Name"
-             required
-             />
-    </div>
-    <div class="form-group">
-      <label id="email-label" for="email">Email</label>
-      <input
-             type="email"
-             name="Email"
-             id="Email"
-             class="form-control"
-             placeholder="Please enter your Email"
-             required
-             />
-  </div>
-<div class="form-group">
-        <label id="number-label" for="age">Age</label>
-      <input
-             type="number"
-             name="age"
-             id="number"
-             min="5"
-             max="110"
-             class="form-control"
-             placeholder="Age"
-             required
-             />
-</div>
-<div>
-  <h4>What platforms do you play Overwatch on?</h4>
-  <input type="checkbox" id="platform" name="Xbox" value="Xbox">
-  <label for="platform">Xbox</label><br>
-    <input type="checkbox" id="platform" name="playstation" value="playstation">
-  <label for="platform">Playstation</label><br>
-    <input type="checkbox" id="platform" name="nintendo switch" value="nintendo switch">
-  <label for="platform">Nintendo Switch</label><br>
-    <input type="checkbox" id="platform" name="pc" value="pc">
-  <label for="platform">PC</label><br>
-</div>
-<p>Which game mode do you spend the most time playing?</p>
-<input type="radio" id="mode" name="mode" value="quick play">
-<label for="mode">Quick Play</label><br>
-<input type="radio" id="mode" name="mode" value="arcade">
-<label for="mode">Arcade</label><br>
-<input type="radio" id="mode" name="mode" value="competitive">
-<label for="mode">Compeitive</label><br>
-<input type="radio" id="mode" name="mode" value="custom">
-<label for="mode">Custom</label><br>
+<!DOCTYPE html>
 
-</body>
-</div>
-  <div id="tribute-info">
-    <p style="color: white;">This is not a tribute page, it is a survey page. However if you would like more information on Overwatch please visit the <a href="https://playoverwatch.com/en-us/" target="_blank" id="tribute-link">official site</a></p>
+<head>
+  
+</head>
+<body>
+  <div class="container">
+    <div class="header"><h1 id="title">Overwatch Survey</h1>
+    </div>
+    <div class="logo">
+      <p id="description">Please take a short survey to tell us about your Overwatch experience</p>
+      <img src="https://www.bing.com/th?id=OIP.Nufj1XkoBmeZIwGGgjXLtAHaEK&w=248&h=137&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2>"
+    </div>
+      <div class="content-wrapper">
+        <form id="survey-form">
+          <label id="name-label">Name</label>
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name"
+                   required
+                   />
+          <label id="email-label">Email</label>
+          <input type="email"
+                 id="email"
+                 placeholder="Enter your email"
+                 required
+                 />
+          <label id="number-label">Age</label>
+          <input type="number"
+                 id="number"
+                 min="1"
+                 max="99"
+                 placeholder="Age"
+                 required
+                 />
+          <label id="dropdown">Which platform do you primarily play on?</label>
+          <select id="dropdown">
+            <option>PC</option>
+            <option>Playstation</option>
+            <option>Xbox</option>
+            <option>Nintendo Switch</option>
+          </select>
+          <div class="radio-group">
+          <label id="radio">What game mode do you primarily play?</label><br>
+          <input type="radio" name="mode" value="competitive">Competitive<br>
+          <input type="radio" name="mode" value="arcade">Arcade<br>
+          <input type="radio" name="mode" value="quickplay">Quick Play<br>
+          <input type="radio" name="mode" value="custom">Custom<br>
+          </div>
+          <div class="check-group">
+          <label>Which roles do you play?</label><br>
+          <label><input type="checkbox" value="tank">Tank</label><br>
+          <label><input type="checkbox" value="dps">DPS</label><br>
+          <label><input type="checkbox" value="support">Support</label><br>
+          </div>
+          <div class="text-area">
+            <label id="comments"> Do you have any additional comments?</label>
+            <textarea name="comments" row="4" columns="50"></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" id="submit">
+        </form>
+      </div>
   </div>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+    </html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
