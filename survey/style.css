@@ -1,45 +1,56 @@
-.text-center {
+body{
+  background-color: black;
+}
+
+.container{
+  display: grid;
+  height: auto;
+  margin: 2rem;
+  grid-gap: 10px 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid template-rows: 1fr 1fr 1fr;
+}
+
+.header{
+  grid-column: 2;
+  grid-row: 1;
   text-align: center;
-  color: black;
+  color: orange;
+  padding-top: 0;
 }
 
-#survey-form {
-  
-  border: 10px solid grey;
-  background-color: lightblue;
-  opacity: 0.9;
-  margin-top: 0;
-  margin-left: 35%;
-  margin-right: 35%;
+.logo {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
 }
 
-.contatiner {
-}
-
-body {
-  color: black;
-  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp2236922.jpg&f=1&nofb=1)
-}
-
-.form-group{
+.content-wrapper {
+  grid-column: 2;
+  grid-row: 3;
+  height: auto;
+  width: auto;
+  border: ridge orange 15px;
+  background-color: grey;
   text-align: left;
-  opacity:1;
-  padding: 5px;
+  padding: 10px;
 }
 
-h1 {
-  color: black;
+#description {
+  color: white;
 }
 
-label {
+label, input{
   display: block;
 }
 
-#image {
-width: 100%;
-height: auto;
-max-width: 625px;
-margin-left: auto;
-margin-right: auto;
-display: block;
+.radio-group input,
+.radio-group label{
+  display: inline-block;
 }
+
+.check-group input,
+.check-group label{
+  display: inline-block;
+}
+
