@@ -1,0 +1,98 @@
+<div class="nav-wrapper">
+<nav id="navbar">
+  <header class="nav-header">CSS Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li><a class="nav-link" href="#Why_Use_CSS?">Why Use CSS?</a></li>
+    <li><a class="nav-link" href="#CSS_Solved_a_Big_Problem">CSS Solved a Big Problem</a></li>
+    <li><a class="nav-link" href="#CSS_Saves_a_Lot_of_Work!">CSS Saves a Lot of Work!</a></li>
+    <li><a class="nav-link" href="#CSS_Syntax">CSS Syntax</a></li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+</nav>
+</div>
+
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <p>CSS is the language we use to style a Web page.</p>
+    <ul>
+      <li>CSS stands for Cascading Style Sheets</li>
+      <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+      <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+      <li>External stylesheets are stored in CSS files</li>
+    </ul>
+  </section>
+  <section class="main-section" id="Why_Use_CSS?">
+    <header>Why Use CSS?</header>
+    <p> CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+    <p>
+    <div class="box">
+   <code><pre>body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+        }</code></p>
+</div>
+</section>
+  
+    <section class="main-section" id="CSS_Solved_a_Big_Problem">
+      <header>CSS Solved a Big Problem</header>
+      <p>CSS Solved a Big Problem
+        HTML was NEVER intended to contain tags for formatting a web page!</p>
+
+      <p>HTML was created to describe the content of a web page, like:</p>
+
+      <code><p>&lt;h1&gt;This is a heading&lt;/h1&gt;</p>
+
+        <p>&lt;p&gt;This is a paragraph.&lt;/p&gt;</p></code>
+
+<p>When tags like &lt;font&gt;, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.</p>
+
+      <p>To solve this problem, the World Wide Web Consortium (W3C) created CSS.</p>
+
+     <p>CSS removed the style formatting from the HTML page!</p>
+  </section>
+  <section class="main-section" id="CSS_Saves_a_Lot_of_Work!">
+    <header>CSS Saves a Lot of Work!</header>
+    <p>The style definitions are normally saved in external .css files.</p>
+    <p>With an external stylesheet file, you can change the look of an entire website by changing just one file!</p>
+  </section>
+  
+  <section class="main-section" id="CSS_Syntax">
+    <header>CSS Syntax</header>
+    <img src="https://www.w3schools.com/Css/img_selector.gif">
+    <p>The selector points to the HTML element you want to style.</p>
+    <p>The declaration block contains one or more declarations separated by semicolons.</p>
+    <p>Each declaration includes a CSS property name and a value, separated by a colon.</p>
+    <p>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+    <code>
+      <header>Example</header>
+      <p>In this example all &lt;p&gt; elements will be center-aligned, with a red text color:
+      <pre>p {
+  color: red;
+  text-align: center;
+}</p>
+</code>
+    <h3>Example Explained</h3>
+    <ul>
+      <li><code class="codespan">p</code> is a selector in CSS (it points to the HTML element you want to style: &lt;p&gt;).</li>
+      <li><code class="codespan">color</code>is a property, and <code class="codespan">red</code> is the property value</li>
+        <li><code class="codespan">text-align</code> is a property, and <code class="codespan">center</code> is the property value</li>
+          </ul>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <ul>
+      <li>All information on this page was recieved from <a href="https://www.w3schools.com/">W3 Schools</a></li>
+</main>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
